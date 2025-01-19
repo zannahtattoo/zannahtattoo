@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gabriela - Tatuadora</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #2e2e2e;
+            color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #1a1a1a;
+            text-align: center;
+            padding: 50px 0;
+            color: #00b0ff;
+        }
+        header h1 {
+            font-size: 36px;
+        }
+        section {
+            padding: 40px;
+            text-align: center;
+        }
+        h2 {
+            color: #00b0ff;
+            font-size: 28px;
+        }
+        .cta-button {
+            background-color: #00b0ff;
+            color: #fff;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 18px;
+        }
+        .cta-button:hover {
+            background-color: #008bb3;
+        }
+        .social-links a {
+            color: #00b0ff;
+            text-decoration: none;
+            margin: 0 10px;
+            font-size: 20px;
+        }
+        .social-links a:hover {
+            color: #008bb3;
+        }
+        footer {
+            background-color: #1a1a1a;
+            text-align: center;
+            color: #f0f0f0;
+            padding: 20px;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+        .form-container {
+            max-width: 500px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #333;
+            border-radius: 8px;
+        }
+        .form-container input,
+        .form-container textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: none;
+            border-radius: 5px;
+            background-color: #444;
+            color: #fff;
+        }
+        .form-container input[type="submit"] {
+            background-color: #00b0ff;
+            border: none;
+            color: #fff;
+            cursor: pointer;
+        }
+        .form-container input[type="submit"]:hover {
+            background-color: #008bb3;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>¡Bienvenidos a mi estudio de tatuajes!</h1>
+    <p>Agendar tu cita es fácil. ¡Hazlo ahora y crea tu diseño único!</p>
+</header>
+
+<section>
+    <h2>Agendar Cita</h2>
+    <p>Para agendar tu cita, por favor llena el siguiente formulario:</p>
+    <div class="form-container">
+        <form action="#" method="POST">
+            <input type="text" name="nombre" placeholder="Tu Nombre" required>
+            <input type="email" name="email" placeholder="Tu Correo" required>
+            <textarea name="mensaje" placeholder="Detalles del Tatuaje" rows="4" required></textarea>
+            <input type="submit" value="Agendar Cita">
+        </form>
+    </div>
+</section>
+
+<section>
+    <h2>Contacta conmigo</h2>
+    <p>También puedes seguirme en mis redes sociales:</p>
+    <div class="social-links">
+        <a href="https://www.instagram.com/tuusuario" target="_blank">Instagram</a>
+        <a href="https://www.facebook.com/tuusuario" target="_blank">Facebook</a>
+        <a href="https://twitter.com/tuusuario" target="_blank">Twitter</a>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2025 Gabriela - Todos los derechos reservados</p>
+</footer>
+
+</body>
+</html>
